@@ -149,7 +149,7 @@ def main_loop():
             elif command == "next":
                 forward()
             else:
-                print "history, items, backtrack, forward"
+                print "history, items, next, back"
         except GameEnded:
             break
 
